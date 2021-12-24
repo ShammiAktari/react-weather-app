@@ -1,0 +1,13 @@
+.Weather {
+  margin-top: 40px;
+}
+li {
+  list-style: none;
+}
+
+.container {
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 10%;
+}
