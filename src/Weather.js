@@ -20,8 +20,11 @@ export default function Weather(){
                 <br/>
                 <div className="row">
                 <div className="col-6">
-<img src="https://ssl.gstatic.com/onebox/weather/64/rain.png" alt="weather icon" /><span>6℃|</span><span className="fahrenheit secondary">℉</span>
+                    
+<img src="https://ssl.gstatic.com/onebox/weather/64/rain.png" alt="weather icon" />
+<span className="temperature">6</span><span className="celcius">℃|</span><span className="fahrenheit">℉</span>
                 </div>
+                
                 
                 
                     <div className="col-6">
@@ -33,8 +36,7 @@ export default function Weather(){
                     </div>
                     </div>
                 
-</div>
-            
+            </div>
         
     );
 }

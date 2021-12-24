@@ -24,3 +24,26 @@ li {
   margin: 0;
   padding: 0;
 }
+
+.Weather .temperature {
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 64px;
+  margin-right: 5px;
+}
+
+.Weather img {
+  height: 80px;
+  margin-top: -40px;
+  margin-right: 10px;
+}
+.Weather .celcius,
+.fahrenheit {
+  position: relative;
+  top: -40px;
+  font-weight: 600;
+}
+
+.Weather .fahrenheit {
+  color: #999da1;
+}
