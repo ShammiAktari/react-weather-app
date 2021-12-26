@@ -32,10 +32,9 @@ li {
   margin-right: 5px;
 }
 
-.Weather img {
-  height: 80px;
-  margin-top: -40px;
-  margin-right: 10px;
+.Weather canvas {
+  margin-top: -30px;
+  margin-right: 8px;
 }
 .Weather .celcius,
 .fahrenheit {
