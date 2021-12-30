@@ -1,0 +1,9 @@
+.weatherforecast-day {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.weatherforecast-min,
+.weatherforecast-day {
+  opacity: 0.6;
+}
