@@ -13,6 +13,7 @@ export default function Weather(props){
         console.log(response.data);
         setWeatherData({
             ready : true,
+            coordinets: response.data.coord,
           temperature:  response.data.main.temp,
           city: response.data.name,
           date: new Date(response.data.dt * 1000),
@@ -56,7 +57,7 @@ if(weatherData.ready){
                 </form>
                 <br/>
                 <WeatherInfo data={weatherData} />
-                <WeatherForecast />
+                <WeatherForecast coordinets={weatherData.coordinets}/>
      </div>
      );           
 }else{  
