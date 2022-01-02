@@ -11,8 +11,8 @@ export default function App() {
       </div>
     
       <footer>
-        <p>This was coded by <a href="https://www.linkedin.com/in/shammiaktari/">Shammi Aktari</a>  and 
-        <a href="https://github.com/ShammiAktari/react-weather-app"> open-sourece on GitHub</a>.</p>
+        <p>This was coded by <a href="https://www.linkedin.com/in/shammiaktari/" target="_blank" rel="noopener noreferrer">Shammi Aktari</a>  and 
+        <a href="https://github.com/ShammiAktari/react-weather-app" target="_blank" rel="noopener noreferrer"> open-sourece on GitHub</a>.</p>
       </footer>
       
     </div>
