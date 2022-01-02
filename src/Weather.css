@@ -47,3 +47,36 @@ li {
 .Weather .fahrenheit {
   color: #999da1;
 }
+
+@media (max-width: 767px) {
+  input {
+    max-width: 100%;
+  }
+
+  .btn,
+  .form-control {
+    font-size: 10px;
+  }
+
+  li {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .Weather .temperature {
+    font-size: 46px;
+  }
+
+  .Weather .celcius,
+  .fahrenheit {
+    top: -25px;
+    font-size: 10px;
+  }
+
+  .Weather canvas {
+    margin-top: 0;
+    margin-right: 0;
+    width: 40px;
+    height: 40px;
+  }
+}

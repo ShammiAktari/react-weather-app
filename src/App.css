@@ -6,3 +6,9 @@ footer {
   font-size: 11px;
   margin-top: 10px;
 }
+@media (max-width: 767px) {
+  footer {
+    font-size: 10px;
+    text-align: center;
+  }
+} ;
