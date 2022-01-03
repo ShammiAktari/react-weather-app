@@ -7,3 +7,7 @@
 .weatherforecast-day {
   opacity: 0.6;
 }
+
+.weatherforecast-max {
+  font-weight: 800;
+}
