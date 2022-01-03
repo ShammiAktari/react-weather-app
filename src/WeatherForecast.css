@@ -10,12 +10,18 @@
   opacity: 0.6;
 }
 
+.weatherforecast-max,
+.weatherforecast-min {
+  text-align: center;
+}
+
 .weatherforecast-max {
   font-weight: 800;
 }
 
 .weatherforecast-icon {
   margin-top: 50px;
+  text-align: center;
 }
 
 @media (max-width: 767px) {

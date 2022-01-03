@@ -63,19 +63,23 @@ li {
   }
 
   .Weather .temperature {
-    font-size: 46px;
+    font-size: 40px;
   }
 
   .Weather .celcius,
   .fahrenheit {
-    top: -25px;
+    top: -20px;
     font-size: 10px;
   }
 
   .Weather canvas {
-    margin-top: 0;
+    margin-top: 10px;
     margin-right: 0;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
+  }
+
+  .humidity {
+    margin-top: 10px;
   }
 }
