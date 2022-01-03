@@ -24,7 +24,7 @@ function day(){
         <div className="weatherforecast-day">
                         {day()}
                     </div>
-                    <div className="weatherforcast-icon mt-5">
+                    <div className="weatherforecast-icon" >
                         <WeatherIcon code={props.data.weather[0].icon} size={38} color="#0DCAF0" />
                     </div>
                     <div className="weatherforcast-temperatures mt-3">
@@ -32,5 +32,6 @@ function day(){
                         <span className="weatherforecast-min"> {minTemperature()}</span>
                     </div>
                     </div>
+                    
     );
 }

@@ -1,6 +1,8 @@
 .weatherforecast-day {
   font-size: 20px;
   font-weight: 700;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .weatherforecast-min,
@@ -10,4 +12,26 @@
 
 .weatherforecast-max {
   font-weight: 800;
+}
+
+.weatherforecast-icon {
+  margin-top: 50px;
+}
+
+@media (max-width: 767px) {
+  .weatherforecast-day {
+    font-size: 13px;
+  }
+
+  .weatherforecast-max,
+  .weatherforecast-min {
+    font-size: 12px;
+  }
+
+  .weatherforecast-icon {
+    max-width: 5px;
+    max-height: 5px;
+    margin-bottom: 3rem;
+    margin-top: 9px;
+  }
 }
