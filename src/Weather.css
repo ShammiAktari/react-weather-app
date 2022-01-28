@@ -9,6 +9,7 @@ li {
 }
 
 .container {
+  background-color: aliceblue;
   box-shadow: 1px 1px 15px #b1d4fa;
   border-radius: 10px;
   margin: 0 auto;
